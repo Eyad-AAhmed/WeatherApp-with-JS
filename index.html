@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" href="icon/weather_snowy_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+        <title>Weather</title>
+    </head>
+
+    <body>
+        <h1>Weather</h1>
+        <div class="container">
+
+            <div class="input-field">
+                <input 
+                type="text" 
+                required 
+                placeholder="City"
+                id="city"
+                name="input">
+                <button type="button" id="get">🔍</button>
+            </div>
+
+            <span id="city-name"></span>
+            <span id="date"></span>
+
+            <div class="info-displayer">
+
+                <span class="temp">
+                    <img src="" alt="icon" class="icon" id="icon">
+                    <span id="temp"></span>
+                    <button id="cel" type="button">°C</button>
+                    <button id="f" type="button">°F</button>
+                </span>
+
+                <span id="time"></span>
+            </div>
+
+            <div class="additional-info">
+
+                <p class="feels-like">
+                    <img src="" alt="icon" id="icon-1"><br><span id="feels-like"></span>
+                </p>
+
+                <p class="humidity">
+                    💧<br><span id="humidity"></span>
+                </p>
+
+                <p class="wind">
+                    💨<br><span id="wind"></span>
+                </p>
+
+                <p class="uv">
+                    ☀️<br><span id="uv"></span>
+                </p>
+            </div>
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

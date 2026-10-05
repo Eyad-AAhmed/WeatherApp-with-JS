@@ -1,0 +1,182 @@
+:root {
+    background-color:#e3f2fd;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+    display: flex;
+    justify-content: center;
+    color: #0D47A1
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 5px solid #2195f39a;
+    border-radius: 12px;
+    max-height: 350px;
+    max-width: 600px;
+    height: 320px;
+    width: 550px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.input-field {
+    position: relative;
+    text-align: right;
+}
+
+
+#city {
+    width: 200px;
+    height: 25px;
+    margin: 0;
+    padding-left: 6px;
+    border-radius: 12px;
+    border: 2px solid #2195f39a;
+    background-color:#E3F2FD;
+}
+#city:focus {
+    outline: none;
+    width: 200px;
+    height: 30px;
+    margin: 0;
+    padding-left: 6px;
+    border-radius: 12px;
+    border: 3px solid #2195f39a;
+    background-color:#E3F2FD;
+    color:#0D47A1;
+    font-weight: 600;
+}
+
+#get {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    border: 2px solid #2195f39a;
+    background-color:#E3F2FD;
+}
+
+#get:hover {
+    cursor: pointer
+}
+
+#city-name {
+    font-weight: 800;
+    font-size: 3em;
+    padding: 10px;
+    margin: auto;
+}
+
+.info-displayer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border: 5px solid #2195f39a;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.icon {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#cel, #f {
+    max-width: 30px;
+    max-height: 20px;
+    border: none;
+    background-color: transparent;
+    color:#0D47A1
+}
+
+#cel {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+#f {
+    border-left: 3px solid #0d48a1;
+}
+
+.temp {
+    height: 50px;
+    width: 70%;
+    padding: auto;
+    display: flex;
+}
+
+#temp {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+#date {
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#time {
+    position: relative;
+    padding: auto;
+    margin: auto;
+    text-align: right;
+    top: 20px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.additional-info {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    border: 5px solid #2195f39a;
+    width: 380px;
+    height: 65px;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.feels-like, .wind, .humidity, .uv {
+    padding: auto;
+    margin: 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#icon-1 {
+    padding: 0;
+    margin: 0;
+    width: 45px;
+}
+
+#feels-like {
+    position: relative;
+    bottom: 16px;
+}
+
+#humidity, #wind, #feels-like, #uv {
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.humidity, .wind, .feels-like {
+    border-right: 3px solid #2195f39a;
+    height: 70px
+}
