@@ -105,7 +105,7 @@ async function showWeather(city) {
 }
 
 showTime ("Africa/Cairo")
-showWeather("Itay Al Barud")
+showWeather("Cairo")
 
 celBtn.addEventListener("click", () => {
     toCel();
